@@ -13,7 +13,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
 		<!-- 配置事务管理器，统一事务 -->
 		<property name="transactionManager" ref="txManager" />
 		<!-- 设置建表策略，如果没有表，自动创建表 -->
-		<property name="databaseSchemaUpdate" value="false" />
+		<property name="databaseSchemaUpdate" value="true" />
 	</bean>
 	<!-- 创建流程引擎对象 -->
 	<bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
