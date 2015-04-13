@@ -1,10 +1,11 @@
 @CHARSET "UTF-8";
-.m-login{
-	height: 400px;
-    left: 50%;
-    margin-left: -320px;
-    margin-top: -200px;
-    position: absolute;
-    top: 50%;
-    width: 640px;
+.login{
+	
+	position: relative;
+	top: 150px;
+	background-color: #CCD1D9;
+	
+}
+.bg-color{
+	background-color: #AAB2BD;
 }
