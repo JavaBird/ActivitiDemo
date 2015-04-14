@@ -1,8 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%  
+	String path = request.getContextPath();  
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";  
+%> 	
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
+	<base href="<%=basePath%>">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +24,7 @@
 					<h4 class="text-left lead">欢迎登录系统</h4>
 				</div>
 				<div class="col-md-12">
-					<form class="form-horizontal">
+					<form class="form-horizontal" method="post" action="admin/login">
 						<div class="form-group">
 							<div class="col-sm-12">
 								<input type="text" class="form-control" id="inputEmail3" placeholder="用户名">

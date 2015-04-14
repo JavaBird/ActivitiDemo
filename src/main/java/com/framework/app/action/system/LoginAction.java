@@ -1,4 +1,4 @@
-package com.framework.app.action;
+package com.framework.app.action.system;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +27,7 @@ public class LoginAction  extends BaseAction{
 	@RequestMapping("login")
 	public String index(){
 		
-		return "";
+		return "index";
 				
 	}
 	
