@@ -10,5 +10,5 @@
 		<script src="resources/UI/js/respond.min.js"></script>
 		<![endif]-->
 	<script src="resources/UI/js/jquery-1.10.1.min.js"></script>
-	<!-- <script src="resources/UI/js/bootstrap.min.js"></script> -->
- 	<script src="resources/UI/js/site.min.js"></script> 
+	 <script src="resources/UI/js/bootstrap.min.js"></script> 
+ 	<!-- <script src="resources/UI/js/site.min.js"></script>  -->

@@ -18,37 +18,46 @@
 <%@include file="./include/head.jsp"%>
 <link href="resources/css/site.css" rel="stylesheet">
 <style type="text/css">
-
-
 </style>
 </head>
 <body class="bg-index-color">
 	<div id="north" class="container-fluid"
-		style="height: 60px; background-color: #3BAFDA;"></div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-2">
-				<div class="sidebar-menu">
-					<a data-toggle="collapse" class="nav-header menu-first collapsed"
-						href="#userMeun"><i class="icon-user-md icon-large"></i> 用户管理</a>
-					<ul class="nav nav-list menu-second collapse" id="userMeun"
-						style="height: 0px;">
-						<li><a href="#"><i class="icon-user"></i> 增加用户</a></li>
-						<li><a href="#"><i class="icon-edit"></i> 修改用户</a></li>
-						<li><a href="#"><i class="icon-trash"></i> 删除用户</a></li>
-						<li><a href="#"><i class="icon-list"></i> 用户列表</a></li>
-
-					</ul>
-					<a data-toggle="collapse" class="nav-header menu-first"
-						href="#articleMenu"><i class="icon-book icon-large"></i> 文章管理</a>
-					<ul class="nav nav-list menu-second in collapse" id="articleMenu"
-						style="height: auto;">
-						<li><a href="#"><i class="icon-pencil"></i> 添加文章</a></li>
-						<li><a href="#"><i class="icon-list-alt"></i> 文章列表</a></li>
-					</ul>
-				</div>
+		style="height: 8%; background-color: #FFFFFF;"></div>
+	<div class="container-fluid" style="height: 92%;">
+		<div class="row" style="height: 100%;">
+			<div class="col-xs-2"
+				style="height: 100%; background-color: #434A54; width: 22%;">
+				 <div class="panel-group" id="accordion2" class="sidebar-menu" >
+				   <div class="accordion-group">
+						<a  data-toggle="collapse" data-parent="#accordion2" aria-expanded="false" class="nav-header menu-first collapsed" href="#userMeun"><i
+							class="icon-user-md icon-large"></i> 用户管理</a>
+						<ul class="nav nav-list menu-second collapse" id="userMeun"
+							style="height: 0px;">
+							<li><a href="#"><i class="icon-user"></i> 增加用户</a></li>
+							<li><a href="#"><i class="icon-edit"></i> 修改用户</a></li>
+							<li><a href="#"><i class="icon-trash"></i> 删除用户</a></li>
+							<li><a href="#"><i class="icon-list"></i> 用户列表</a></li>
+	
+						</ul>
+					</div>
+					<div class="accordion-group">
+						<a data-toggle="collapse" data-parent="#accordion2"  aria-expanded="false"
+							class="nav-header menu-first" href="#articleMenu"><i
+							class="icon-book icon-large"></i> 文章管理</a>
+						<ul class="nav nav-list menu-second collapse" id="articleMenu"
+							style="height: auto;">
+							<li><a href="#"><i class="icon-pencil"></i> 添加文章</a></li>
+							<li><a href="#"><i class="icon-list-alt"></i> 文章列表</a></li>
+						</ul>
+					</div>
+				</div> 
+				
 			</div>
-			<div class="col-sm-10"></div>
+			<div class="col-xs-9" style="width: 78%;">
+				<div style="margin-left: -15px; margin-right: -15px;">
+					sssssssss</div>
+
+			</div>
 		</div>
 	</div>
 
@@ -59,4 +68,17 @@
 
 	<%@include file="./include/foot.jsp"%>
 </body>
+<script type="text/javascript">
+	$(function() {
+
+		var w = window.innerWidth || document.documentElement.clientWidth
+				|| document.body.clientWidth;
+
+		var h = window.innerHeight || document.documentElement.clientHeight
+				|| document.body.clientHeight;
+
+		$('body').height(h)
+
+	});
+</script>
 </html>
