@@ -29,11 +29,9 @@
 				style="height: 100%; background-color: #434A54; width: 22%;">
 
 				
+				 <div id="accordion2" class="sidebar-menu">
 
-
-				
-				<div id="accordion2" class="panel-group sidebar-menu">
-
+				<div class="accord">
 					<a data-toggle="collapse" data-parent="#accordion2"
 						aria-expanded="false" class="nav-header menu-first collapsed"
 						href="#userMeun"><i class="icon-user-md icon-large"></i> 用户管理</a>
@@ -45,6 +43,8 @@
 						<li><a href="#"><i class="icon-list"></i> 用户列表</a></li>
 
 					</ul>
+				 </div>
+				 <div class="accord">
 					<a data-toggle="collapse" data-parent="#accordion2"
 						aria-expanded="false" class="nav-header menu-first"
 						href="#articleMenu"><i class="icon-book icon-large"></i> 文章管理</a>
@@ -53,7 +53,9 @@
 						<li><a href="#"><i class="icon-pencil"></i> 添加文章</a></li>
 						<li><a href="#"><i class="icon-list-alt"></i> 文章列表</a></li>
 					</ul>
-				</div>
+				 
+				 </div>
+				</div> 
 				
 
 
