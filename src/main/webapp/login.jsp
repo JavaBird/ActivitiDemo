@@ -46,7 +46,7 @@
 						</div>
 						<div class="form-group">
 							<div class="col-sm-12">
-								<input class="btn btn-info btn-block" type="submit" value="登录">
+								<input class="btn   btn-block login-btn" type="submit" value="登录">
 							</div>
 						</div>
 					</form>

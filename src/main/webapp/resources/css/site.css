@@ -12,6 +12,19 @@
 .bg-index-color{
 	background-color: #AAB2BD;
 }
+
+.login-btn{
+	
+	background-color: #37BC9B;
+	color: #fff;
+}
+
+.login-btn:hover{
+	background-color: #48CFAD;
+	border-color: #48CFAD;
+	color: #fff;
+}
+
 /*左侧菜单*/
 		.sidebar-menu{
 			margin-left: -5px;

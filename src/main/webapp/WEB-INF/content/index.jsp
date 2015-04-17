@@ -28,31 +28,10 @@
 			<div class="col-xs-2"
 				style="height: 100%; background-color: #434A54; width: 22%;">
 
-				<div class="accordion" id="accordion2">
-					<div class="accordion-group">
-						<div class="accordion-heading">
-							<a class="accordion-toggle" data-toggle="collapse"
-								data-parent="#accordion2" href="#collapseOne"> Collapsible
-								Group Item #1 </a>
-						</div>
-						<div id="collapseOne" class="accordion-body collapse in">
-							<div class="accordion-inner">Anim pariatur cliche...</div>
-						</div>
-					</div>
-					<div class="accordion-group">
-						<div class="accordion-heading">
-							<a class="accordion-toggle" data-toggle="collapse"
-								data-parent="#accordion2" href="#collapseTwo"> Collapsible
-								Group Item #2 </a>
-						</div>
-						<div id="collapseTwo" class="accordion-body collapse">
-							<div class="accordion-inner">Anim pariatur cliche...</div>
-						</div>
-					</div>
-				</div>
+				
 
 
-				<!-- 手风琴
+				
 				<div id="accordion2" class="panel-group sidebar-menu">
 
 					<a data-toggle="collapse" data-parent="#accordion2"
@@ -75,7 +54,7 @@
 						<li><a href="#"><i class="icon-list-alt"></i> 文章列表</a></li>
 					</ul>
 				</div>
-				手风琴 -->
+				
 
 
 			</div>
