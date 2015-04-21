@@ -18,46 +18,44 @@
 <%@include file="./include/head.jsp"%>
 <link href="resources/css/site.css" rel="stylesheet">
 </head>
-<body >
-	<div id="north" class="container-fluid site-north"
-		></div>
+<body>
+	<div id="north" class="container-fluid site-north"></div>
 	<div class="container-fluid" style="height: 92%;">
 		<div class="row" style="height: 100%;">
-			<div class="col-xs-2"
-				style="height: 100%; background-color:#1D2939;width: 19%;">
-				
-				 <div id="accordion2" class="sidebar-menu">
+			<div class="col-xs-2 cx2">
 
-				<div class="accord">
-					<a data-toggle="collapse" data-parent="#accordion2"
-						aria-expanded="false" class="nav-header menu-first collapsed"
-						href="#userMeun"><i class="icon-user-md "></i> <span>用户管理</span></a>
-					<ul class="nav nav-list menu-second collapse" id="userMeun"
-						style="height: 0px;">
-						<li><a href="#"><i class="icon-caret-right"></i> <span>增加用户</span></a></li>
-						<li><a href="#"><i class="icon-caret-right"></i> <span>修改用户</span></a></li>
-						<li><a href="#"><i class="icon-caret-right"></i> <span>删除用户</span></a></li>
-						<li><a href="#"><i class="icon-caret-right"></i> <span>用户列表</span></a></li>
+				<div id="accordion2" class="sidebar-menu">
 
-					</ul>
-				 </div>
-				 <div class="accord">
-					<a data-toggle="collapse" data-parent="#accordion2"
-						aria-expanded="false" class="nav-header menu-first"
-						href="#articleMenu"><i class="icon-book "></i> <span>文章管理</span></a>
-					<ul class="nav nav-list menu-second collapse" id="articleMenu"
-						style="height: auto;">
-						<li><a href="#"><i class="icon-caret-right"></i> <span>添加文章</span></a></li>
-						<li><a href="#"><i class="icon-caret-right"></i> <span>文章列表</span></a></li>
-					</ul>
-				 
-				 </div>
-				</div> 
-				
+					<div class="accord">
+						<a data-toggle="collapse" data-parent="#accordion2"
+							aria-expanded="false" class=" menu-first collapsed"
+							href="#userMeun"><i class="icon-user-md "></i> <span>用户管理</span></a>
+						<ul class=" menu-second collapse" id="userMeun"
+							style="height: 0px;">
+							<li><a href="#"><i class="icon-caret-right"></i> <span>增加用户</span></a></li>
+							<li><a href="#"><i class="icon-caret-right"></i> <span>修改用户</span></a></li>
+							<li><a href="#"><i class="icon-caret-right"></i> <span>删除用户</span></a></li>
+							<li><a href="#"><i class="icon-caret-right"></i> <span>用户列表</span></a></li>
+
+						</ul>
+					</div>
+					<div class="accord">
+						<a data-toggle="collapse" data-parent="#accordion2"
+							aria-expanded="false" class=" menu-first"
+							href="#articleMenu"><i class="icon-book "></i> <span>文章管理</span></a>
+						<ul class="menu-second collapse" id="articleMenu"
+							style="height: auto;">
+							<li><a href="#"><i class="icon-caret-right"></i> <span>添加文章</span></a></li>
+							<li><a href="#"><i class="icon-caret-right"></i> <span>文章列表</span></a></li>
+						</ul>
+
+					</div>
+				</div>
+
 
 
 			</div>
-			<div class="col-xs-10" style="width: 81%;" >
+			<div class="col-xs-10" >
 				<div style="margin-left: -15px; margin-right: -15px;">
 					sssssssss</div>
 

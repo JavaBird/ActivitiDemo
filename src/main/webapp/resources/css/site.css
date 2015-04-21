@@ -2,7 +2,7 @@
 
 body{
 	background-color: #eff0f0;
-    font: 14px/100% arial,"Hiragino Sans GB","Hiragino Sans GB W3",宋体;
+    font: 14px/100%  "Microsoft Yahei",arial,"Hiragino Sans GB","Hiragino Sans GB W3",宋体;
 }
 .login{
 	
@@ -31,7 +31,8 @@ body{
 }
 
 .site-north{
-	height: 8%; background-color: #FFFFFF;
+	height: 8%; 
+	background-color: #434A54;
 }
 
 a:focus {
@@ -42,68 +43,58 @@ a:focus, a:hover {
     color: #23527c;
     text-decoration: none;
 }
+ul{
+	
+	margin-bottom: 0px;
+	list-style: none;
+	
+}
+
+.cx2{
+	
+	height: 100%; 
+	
+	background-color: #656D78;
+	
+}
 /*左侧菜单*/
 		.sidebar-menu{
-			
+			margin-left: -15px;
+			margin-right: -15px;
 		}
 		/*一级菜单*/
 		.menu-first{
-			/* height:35px;
-			line-height:35px; */
-			color: #8f939e;
-			padding: 8px 10px 8px 10px;
-			font-size: 14px;
-			font-weight: normal;
-			text-align: left;
-			display: block; 
+			
+			display: block;
+			padding:10px 0px 10px 10px;
+			color: #fff;
+			border-bottom: 1px solid #434A54;
+			
 		}
+		.menu-second{
+		background-color: #434A54;
+		color: #fff;
+		
+		}
+		
+		
 		/*一级菜单鼠标划过状态*/
 		.menu-first:hover{
-			text-decoration: none;
-			background: none repeat scroll 0 0 #fff;
-            color: #1d2939;
-			border-top: 1px solid #b7b7b7;
-			border-bottom: 1px solid #acacac;
-			border-radius: 2px;
+			
+			background-color: #37BC9B;
 		}
 		/*二级菜单*/
 		.menu-second li a{
-		    color: #8f939e;
-			height:31px;
-			line-height:31px;
-			font-size: 12px;
-			text-align:left;
+		   
 		}
 		/*二级菜单鼠标划过样式*/
 		.menu-second li a:hover {
-		    background-color:#1D2939;
-			text-decoration: none;
-			color: #37BC9B;
+		   
 		}
 		/*二级菜单选中状态*/
 		.menu-second-selected {
-			background-color: #66c3ec;
-			height:31px;
-			line-height:31px;
-			border-top: 1px solid #83ceed;
-			border-bottom: 1px solid #83ceed;
-			border-right: 3px solid #f8881c;
-			border-left: 3px solid #66c3ec;
-			text-align:center;
-		}
-		/*覆盖bootstrap的样式*/
-		.nav-list,.nav-list li a{
-			padding: 0px;
-			margin: 0px;
-		}
-		.accord > a span{
 			
-			margin-left: 10px;
+		}
 		
-		}
-		.accord > a i {
-		 margin-left: 8px;
-		}
-		.accord >ul a {
-			padding-left: 20px;
-		}
+		
+		
