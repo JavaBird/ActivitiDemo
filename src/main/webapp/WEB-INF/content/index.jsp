@@ -27,10 +27,10 @@
 				<div id="accordion2" class="sidebar-menu">
 
 					<div class="accord">
-						<a data-toggle="collapse" data-parent="#accordion2"
+						<a data-toggle="collapse"  data-parent="#accordion2"
 							aria-expanded="false" class=" menu-first collapsed"
-							href="#userMeun"><i class="icon-user-md "></i> <span>用户管理</span></a>
-						<ul class=" menu-second collapse" id="userMeun"
+							href="#userMeun"><i class="icon-user-md "></i> <span>用户管理</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+						<ul class="menu-second collapse" id="userMeun"
 							style="height: 0px;">
 							<li><a href="#"><i class="icon-caret-right"></i> <span>增加用户</span></a></li>
 							<li><a href="#"><i class="icon-caret-right"></i> <span>修改用户</span></a></li>
@@ -42,7 +42,7 @@
 					<div class="accord">
 						<a data-toggle="collapse" data-parent="#accordion2"
 							aria-expanded="false" class=" menu-first"
-							href="#articleMenu"><i class="icon-book "></i> <span>文章管理</span></a>
+							href="#articleMenu"><i class="icon-book "></i> <span>文章管理</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
 						<ul class="menu-second collapse" id="articleMenu"
 							style="height: auto;">
 							<li><a href="#"><i class="icon-caret-right"></i> <span>添加文章</span></a></li>
@@ -66,8 +66,25 @@
 	<%@include file="./include/foot.jsp"%>
 </body>
 <script type="text/javascript">
-	$(function() {
 
-	});
+		 $(function (){ 
+			
+		      $('.accord ul').on('shown.bs.collapse,show.bs.collapse', function () {
+		        
+		    	   
+		    	   $(this).prev().addClass('menu-first-selected');
+		    	   $(this).prev().find('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+		    	  
+		         })
+		      $('.accord ul').on('hide.bs.collapse,hidden.bs.collapse', function () {
+		        
+		    	  $(this).prev().removeClass('menu-first-selected');
+		    	  $(this).prev().find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+		    	  
+		      })
+		   });
+		
+		
+		
 </script>
 </html>
