@@ -29,24 +29,23 @@
 					<div class="accord">
 						<a data-toggle="collapse"  data-parent="#accordion2"
 							aria-expanded="false" class=" menu-first collapsed"
-							href="#userMeun"><i class="icon-user-md "></i> <span>用户管理</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+							href="#userMeun"><i class="fa fa-cog fa-fw fa-lg" ></i> <span>系统设置</span><span class="icon"><i class="fa fa-angle-double-left fa-lg nicon"></i></span></a>
 						<ul class="menu-second collapse" id="userMeun"
 							style="height: 0px;">
-							<li><a href="#"><i class="icon-caret-right"></i> <span>增加用户</span></a></li>
-							<li><a href="#"><i class="icon-caret-right"></i> <span>修改用户</span></a></li>
-							<li><a href="#"><i class="icon-caret-right"></i> <span>删除用户</span></a></li>
-							<li><a href="#"><i class="icon-caret-right"></i> <span>用户列表</span></a></li>
-
+							<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> <span>用户管理</span></a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> <span>角色管理</span></a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> <span>权限管理</span></a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> <span>菜单管理</span></a></li>
 						</ul>
 					</div>
 					<div class="accord">
 						<a data-toggle="collapse" data-parent="#accordion2"
 							aria-expanded="false" class=" menu-first"
-							href="#articleMenu"><i class="icon-book "></i> <span>文章管理</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+							href="#articleMenu"><i class="fa fa-random fa-fw fa-lg"></i> <span>流程管理</span><span class="icon"><i class="fa fa-angle-double-left fa-lg nicon"></i></span></a>
 						<ul class="menu-second collapse" id="articleMenu"
 							style="height: auto;">
-							<li><a href="#"><i class="icon-caret-right"></i> <span>添加文章</span></a></li>
-							<li><a href="#"><i class="icon-caret-right"></i> <span>文章列表</span></a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> <span>部署流程</span></a></li>
+							<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> <span>流程管理</span></a></li>
 						</ul>
 
 					</div>
@@ -73,15 +72,15 @@
 			
 				 $('.accord > a').removeClass('menu-first-selected');
 				 
-				 $('.accord > a').find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+				 $('.accord > a').find('.nicon').removeClass('fa-angle-double-down ').addClass('fa-angle-double-left');
 				 
 				 $(this).addClass('menu-first-selected');
 				 
 				 var flag = $(this).attr('aria-expanded');
 				 if(flag == 'true'){
-					 $(this).find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+					 $(this).find('.nicon').removeClass('fa-angle-double-down').addClass('fa-angle-double-left');
 				 }else {
-					 $(this).find('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+					 $(this).find('.nicon').removeClass('fa-angle-double-left').addClass('fa-angle-double-down');
 					 
 				 }
 				 

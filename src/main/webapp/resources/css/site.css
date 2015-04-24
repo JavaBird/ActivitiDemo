@@ -2,7 +2,7 @@
 
 body{
 	background-color: #eff0f0;
-    font: 14px/100%  "Microsoft Yahei",arial,"Hiragino Sans GB","Hiragino Sans GB W3",宋体;
+    font: 13px/100%  "Microsoft Yahei",arial,"Hiragino Sans GB","Hiragino Sans GB W3",宋体;
 }
 .login{
 	
@@ -67,7 +67,8 @@ ul{
 		
 			display: block;
 			padding:10px 0px 10px 10px;
-			color: #AAB2BD;
+			/* color: #AAB2BD; */
+			color: #CCD1D9;
 			border-bottom: 1px solid #434A54;
 		
 		}
@@ -84,9 +85,10 @@ ul{
 			
 		}
 		
-		.menu-first .glyphicon-plus,.menu-first .glyphicon-minus{
+		.menu-first .icon{
+		  position:relative;
 		  float:right;
-		  right: 35px;
+		  right: 25px;
 		
 		}
 		
@@ -98,21 +100,29 @@ ul{
 		}
 		
 		.menu-second{
+			
 			background-color: #434A54;
 			color: #fff;
 		
 		}
 		
+		.menu-second li:hover {
+			border-right: 5px solid #3BAFDA;
+			color: #37BC9B;
+		}
 		
 		/*二级菜单*/
 		.menu-second li a{
-		   
+		   display:inline-block;
 		   color: #E6E9ED;
+		   padding-top: 10px;
+		   padding-bottom: 10px;
+		   width: 100%;
 		   
 		}
 		/*二级菜单鼠标划过样式*/
 		.menu-second li a:hover {
-		   
+		   color: #37BC9B;
 		}
 		/*二级菜单选中状态*/
 		.menu-second-selected {
