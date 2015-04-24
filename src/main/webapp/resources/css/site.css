@@ -62,25 +62,38 @@ ul{
 			margin-left: -15px;
 			margin-right: -15px;
 		}
-		/*一级菜单*/
-		.menu-first{
-			
+		
+		.accord > a{
+		
 			display: block;
 			padding:10px 0px 10px 10px;
 			color: #AAB2BD;
 			border-bottom: 1px solid #434A54;
+		
+		}
+		
+		.accord > a:hover{
+		
+		    background-color: #37BC9B;
+			color: #F5F7FA; 
+		
+		}		
+		/*一级菜单*/
+		.menu-first{
+			
+			
 		}
 		
 		.menu-first .glyphicon-plus,.menu-first .glyphicon-minus{
-		 
-		  left: 85px;
+		  float:right;
+		  right: 35px;
 		
 		}
 		
 		.menu-first-selected{
 		
 			background-color: #37BC9B;
-			color: #F5F7FA; 
+			color: #F5F7FA !important; 
 		
 		}
 		
@@ -91,11 +104,6 @@ ul{
 		}
 		
 		
-		/*一级菜单鼠标划过状态*/
-		.menu-first:hover{
-			background-color: #37BC9B;
-			color: #F5F7FA; 
-		}
 		/*二级菜单*/
 		.menu-second li a{
 		   

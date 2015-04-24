@@ -69,19 +69,24 @@
 
 		 $(function (){ 
 			
-		      $('.accord ul').on('shown.bs.collapse,show.bs.collapse', function () {
-		        
-		    	   
-		    	   $(this).prev().addClass('menu-first-selected');
-		    	   $(this).prev().find('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-		    	  
-		         })
-		      $('.accord ul').on('hide.bs.collapse,hidden.bs.collapse', function () {
-		        
-		    	  $(this).prev().removeClass('menu-first-selected');
-		    	  $(this).prev().find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-		    	  
-		      })
+			 $('.accord > a').on('click',function(){
+			
+				 $('.accord > a').removeClass('menu-first-selected');
+				 
+				 $('.accord > a').find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+				 
+				 $(this).addClass('menu-first-selected');
+				 
+				 var flag = $(this).attr('aria-expanded');
+				 if(flag == 'true'){
+					 $(this).find('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+				 }else {
+					 $(this).find('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+					 
+				 }
+				 
+			 })
+			 
 		   });
 		
 		
