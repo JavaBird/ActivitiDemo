@@ -16,7 +16,7 @@
 <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 <title>登录系统</title>
 <%@include file="./include/head.jsp"%>
-<link href="resources/css/dashboard.css" rel="stylesheet">
+
 </head>
 <body>
 	 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -27,7 +27,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-3 col-md-2 sidebar" style="background-color: #656D78;">
         	
          <div class="loginInfo">
          		<div class="thumb">
