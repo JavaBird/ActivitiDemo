@@ -8,7 +8,7 @@
 	 <script type="text/javascript" src="resources/Bootstrap/js/bootstrap.min.js"></script>  
  	<script type="text/javascript">
  	
- 	$(function() {
+ 	/* $(function() {
 
 		var w = window.innerWidth || document.documentElement.clientWidth
 				|| document.body.clientWidth;
@@ -18,6 +18,6 @@
 
 		$('body').height(h)
 
-	});
+	}); */
  	
  	</script>

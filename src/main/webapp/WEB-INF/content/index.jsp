@@ -16,16 +16,45 @@
 <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 <title>登录系统</title>
 <%@include file="./include/head.jsp"%>
-<link href="resources/css/site.css" rel="stylesheet">
+<link href="resources/css/dashboard.css" rel="stylesheet">
 </head>
 <body>
-	<div id="north" class="container-fluid site-north"></div>
-	<div class="container-fluid" style="height: 92%;">
-		<div class="row" style="height: 100%;">
-			<div class="col-xs-2 cx2">
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        
+      </div>
+    </nav>
 
-				<div id="accordion2" class="sidebar-menu">
-
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+        	
+         <div class="loginInfo">
+         		<div class="thumb">
+         			<img class="img-circle" alt="" src="resources/image/128.jpg">
+         		</div>
+         		<div class="info">
+                                <p>John Doe</p>
+                                <ul class="list-inline list-unstyled">
+                                    <li><a title="" data-hover="tooltip" href="extra-profile.html" data-original-title="Profile"><i class="fa fa-user fa-lg"></i></a>
+                                    </li>
+                                    <li><a title="" data-hover="tooltip" href="email-inbox.html" data-original-title="Mail"><i class="fa fa-envelope fa-lg"></i></a>
+                                    </li>
+                                    <li><a data-target="#modal-config" data-toggle="modal" title="" data-hover="tooltip" href="#" data-original-title="Setting"><i class="fa fa-cog fa-lg"></i></a>
+                                    </li>
+                                    <li><a title="" data-hover="tooltip" href="extra-signin.html" data-original-title="Logout"><i class="fa fa-sign-out fa-lg"></i></a>
+                                    </li>
+                                </ul>
+                </div>
+         </div>
+        
+        
+          <div id="accordion2" class="sidebar-menu">
+          			<div class="mainMenu">
+          				<a class="">
+          				  <i class="fa fa-tachometer fa-fw fa-lg"></i> <span>工作台</span>
+          				</a>
+          			</div>
 					<div class="accord">
 						<a data-toggle="collapse"  data-parent="#accordion2"
 							aria-expanded="false" class=" menu-first collapsed"
@@ -50,17 +79,12 @@
 
 					</div>
 				</div>
-
-
-
-			</div>
-			<div class="col-xs-10" >
-				<div style="margin-left: -15px; margin-right: -15px;">
-					sssssssss</div>
-
-			</div>
-		</div>
-	</div>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          sssssss
+        </div>
+      </div>
+    </div>
 
 	<%@include file="./include/foot.jsp"%>
 </body>
