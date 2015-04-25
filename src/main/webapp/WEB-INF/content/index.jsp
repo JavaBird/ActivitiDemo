@@ -36,13 +36,13 @@
          		<div class="info">
                                 <p>John Doe</p>
                                 <ul class="list-inline list-unstyled">
-                                    <li><a title="" data-hover="tooltip" href="extra-profile.html" data-original-title="Profile"><i class="fa fa-user fa-lg"></i></a>
+                                    <li><a  data-toggle="tooltip" data-placement="top" title="个人信息"   href="extra-profile.html" ><i class="fa fa-user fa-lg"></i></a>
                                     </li>
-                                    <li><a title="" data-hover="tooltip" href="email-inbox.html" data-original-title="Mail"><i class="fa fa-envelope fa-lg"></i></a>
+                                    <li><a  data-toggle="tooltip" data-placement="top" title="邮箱" href="email-inbox.html" ><i class="fa fa-envelope fa-lg"></i></a>
                                     </li>
-                                    <li><a data-target="#modal-config" data-toggle="modal" title="" data-hover="tooltip" href="#" data-original-title="Setting"><i class="fa fa-cog fa-lg"></i></a>
+                                    <li><a data-toggle="tooltip" data-placement="top" title="设置" href="email-inbox.html"><i class="fa fa-cog fa-lg"></i></a>
                                     </li>
-                                    <li><a title="" data-hover="tooltip" href="extra-signin.html" data-original-title="Logout"><i class="fa fa-sign-out fa-lg"></i></a>
+                                    <li><a data-toggle="tooltip" data-placement="top" title="退出" href="email-inbox.html"><i class="fa fa-sign-out fa-lg"></i></a>
                                     </li>
                                 </ul>
                 </div>
@@ -92,6 +92,8 @@
 
 		 $(function (){ 
 			
+			 $('[data-toggle="tooltip"]').tooltip();
+			 
 			 $('.accord > a').on('click',function(){
 			
 				 $('.accord > a').removeClass('menu-first-selected');
